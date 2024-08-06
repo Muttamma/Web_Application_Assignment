@@ -1,0 +1,47 @@
+.feedback-container img,
+.right-icons img {
+  height: 36px;
+  border-radius: 22px;
+}
+.feedback-container {
+  width: 36%;
+  background-color: #5b575794;
+  padding: 15px;
+  text-align: left;
+  box-sizing: border-box;
+  margin-left: 18px;
+  height: 396px;
+  margin: 20px;
+  border-radius: 6px;
+  overflow-y: auto;
+}
+.feedback-name {
+  display: flex;
+  font-weight: bolder;
+  align-items: center;
+  font-size: 18px;
+}
+.feedback-header {
+  margin-top: 20px;
+  border-bottom: 1px solid #615b5b;
+}
+.feedback-container #feedback {
+  padding-bottom: 25px;
+}
+/* For Webkit browsers */
+.feedback-container::-webkit-scrollbar {
+  width: 8px; /* Change this value to adjust the width */
+}
+
+.feedback-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.feedback-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px; /* Optional: to make the scrollbar more rounded */
+}
+
+.feedback-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

@@ -1,0 +1,67 @@
+/* .firstchart-container {
+  background-color: #5b575794;
+  height: 228px;
+  margin-top: 21px;
+  margin-left: 26px;
+  border-radius: 6px;
+  width: 57%;
+  padding: 20px; 
+}
+
+.firstchart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+}
+
+.firstchart-header div {
+  font-size: 1.2em;
+  color: white;
+}
+
+.firstchart-header input {
+  background: none;
+  color: white;
+  font-size: 1.2em;
+  text-align: right;
+  border: none;
+} */
+
+.firstchart-container {
+  position: relative;
+  background-color: #5b575794;
+  height: 228px;
+  margin-top: 21px;
+  margin-left: 26px;
+  border-radius: 6px;
+  width: 57%;
+  padding: 10px 10px 0 10px; /* Add top padding */
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.firstchart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px; /* Space between header and chart */
+}
+
+.firstchart-header div {
+  font-size: 1.2em;
+  color: white;
+  padding: 0 10px; /* Add some horizontal padding */
+}
+
+.firstchart-header input {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  text-align: right;
+  padding: 0 10px; /* Add some horizontal padding */
+}
+
+.chart-container {
+  height: calc(100% - 40px); /* Adjust height to account for header */
+  width: 100%;
+}

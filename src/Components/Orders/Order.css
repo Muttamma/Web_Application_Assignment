@@ -1,0 +1,31 @@
+.person-image {
+  height: 36px;
+  border-radius: 22px;
+}
+.Order-container {
+  /* height: 400px; */
+  width: 57%;
+  margin-top: 21px;
+  margin-left: 26px;
+  border-radius: 6px;
+  background-color: #5b575794;
+}
+.order-td {
+  text-align: left;
+}
+
+.order-table {
+  table-layout: fixed;
+  width: 100%;
+  padding-left: 13px;
+  text-align: left;
+  margin-top: 13px;
+}
+.Order-container h3 {
+  text-align: left;
+  padding-left: 15px;
+}
+tbody td {
+  border-bottom: 1px solid #615b5b;
+  padding: 8px;
+}

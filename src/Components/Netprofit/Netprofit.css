@@ -1,0 +1,68 @@
+/* .netprofit-container {
+  width: 36%;
+  background-color: #5b575794;
+  height: 138px;
+  margin: 12px;
+  border-radius: 6px;
+}
+
+.netprofit-header {
+  width: 162px;
+  margin-top: 15px;
+  .netprofit {
+    text-align: left;
+    margin: 12px 0 0 12px;
+  }
+  .profit-amount {
+    margin: 12px 12px 0 0;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .profit-rating {
+    text-align: left;
+    margin: 12px 0 0 12px;
+    color: green;
+    font-weight: bold;
+  }
+} */
+
+.netprofit-container {
+  display: flex;
+  width: 36%;
+  background-color: #5b575794;
+  height: 138px;
+  margin: 12px;
+  border-radius: 6px;
+  padding: 15px; /* Add padding to the container for spacing */
+  box-sizing: border-box; /* Include padding in the total width and height */
+}
+
+.netprofit-header {
+  width: 70%;
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  height: 100%; /* Take full height of the container */
+  justify-content: space-between; /* Distribute space between items */
+  align-items: flex-start; /* Align items to the left */
+}
+
+.netprofit {
+  font-size: 16px; /* Adjust font size if needed */
+}
+
+.profit-amount {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 8px; /* Adjust space above the amount */
+}
+
+.profit-rating {
+  text-align: left;
+  color: green;
+  font-weight: bold;
+  margin-top: auto; /* Pushes the rating down */
+}
+
+.CircularProgressbar .CircularProgressbar-trail {
+  stroke: rgb(188, 186, 240) !important;
+}
